@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>DraggableItem.qml</file>
         <file>GDrager.qml</file>
         <file>GDropArea.qml</file>
         <file>GDragAgent.qml</file>

@@ -4,6 +4,7 @@ Item {
     property bool active : false
     property GDropArea dragTarget:null
     property GDrager   dragItem:null
+    property var keys : []
 
 
 

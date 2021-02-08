@@ -8,6 +8,7 @@ Window {
     y:0
     width: 640
     height: 480
+    title: "hhh"
     GDragAgent{}
 
     GDrager
@@ -20,6 +21,7 @@ Window {
 
         hotSpotX:10
         hotSpotY:10
+        keys:["boom"]
 
         Rectangle
         {
@@ -48,8 +50,15 @@ Window {
         GDropArea
         {
             anchors.fill: parent
+            defaultcolor: "blue"
         }
 
+        GDropArea
+        {
+            defaultcolor: "red"
+            width:300
+            height: parent.height
+        }
 
     }
 

@@ -7,12 +7,12 @@ Rectangle {
 
     x:parent.mapFromGlobal(GDragerCenter.x,0).x
     y:parent.mapFromGlobal(0,GDragerCenter.y).y
-    z:1
+    z:100
 
     color:"red"
 
     Drag.active:GDragerCenter.active
-
+    Drag.keys: GDragerCenter.keys
 
 
 }
